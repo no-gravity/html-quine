@@ -1,0 +1,16 @@
+<html>
+<body>
+<p>This page looks the same rendered and in source view.</p>
+<p>Made possible by these 10 style rules:</p>
+<style>* {display: block; font-family:Monospace; margin: 0;}</style>
+<style>a[href]::before {content: "<a href='" attr(href) "'>"}</style>
+<style>a::after {content: "</a>"}</style>
+<style>body::before {content: "<body>"}</style>
+<style>body::after {content: "</body></html>"}</style>
+<style>html::before {content: "<html>"}</style>
+<style>p::before {content: "<p>"}</style>
+<style>p::after {content: "</p>"}</style>
+<style>style::before {content: "<style>"}</style>
+<style>style::after {content: "<\/style>"}</style>
+<a href="https://twitter.com/marekgibney">Follow me on Twitter</a>
+</body></html>
